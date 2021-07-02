@@ -1,0 +1,643 @@
+.OfferItemDetailHeader {
+  font-family: "Montserrat", sans-serif !important;
+  @media (max-width: 575.98px) {
+    &-banner {
+      width: 99%;
+      height: 150px;
+      position: absolute;
+    }
+    &-opacity {
+      display: flex;
+      background: #e4e4e4;
+      width: 99%;
+      position: absolute;
+      opacity: 0.85;
+      height: 150px;
+      z-index: 2;
+    }
+    &-logo {
+      width: 60%;
+      position: absolute;
+      padding: 30px 10px;
+      z-index: 2;
+    }
+    &-col__middle {
+      position: absolute;
+      margin: 3.5% 33%;
+      max-width: 65%;
+      z-index: 2;
+    }
+    &-col__last {
+      position: absolute;
+      margin: 2.5% 75%;
+      z-index: 2;
+    }
+    &-div__btn {
+      margin-top: 3%;
+    }
+    &-btn {
+      text-align: center;
+      margin-left: 30%;
+      width: 55%;
+      border: unset;
+      height: 45px;
+      background-color: $color-primary;
+      line-height: 1em;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    &-text {
+      font-size: 1.1rem;
+
+      line-height: 2rem;
+      color: #000;
+      font-weight: 500;
+    }
+    &-btn__save {
+      cursor: pointer;
+      padding: 15px 8px;
+      margin-left: 30%;
+      &_icon__white {
+        font-size: $font-size-large;
+        //   color: $color-primary;
+        color: #fff;
+      }
+      &_icon__blue {
+        font-size: $font-size-large;
+        color: $color-primary;
+      }
+      &_span {
+        color: $color-primary;
+        font-weight: 500;
+
+        margin-left: 2%;
+      }
+    }
+    &-label {
+      line-height: 1.1em;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-left: 2em;
+    }
+
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    &-banner {
+      width: 99%;
+      height: 150px;
+      position: absolute;
+    }
+    &-opacity {
+      display: flex;
+      background: #e4e4e4;
+      width: 99%;
+      position: absolute;
+      opacity: 0.85;
+      height: 150px;
+      z-index: 2;
+    }
+    &-logo {
+      width: 50%;
+      position: absolute;
+      padding: 30px 10px;
+      z-index: 2;
+    }
+    &-col__middle {
+      position: absolute;
+      margin: 3.5% 30%;
+      max-width: 65%;
+      z-index: 2;
+    }
+    &-col__last {
+      position: absolute;
+      margin: 2.5% 75%;
+      z-index: 2;
+    }
+    &-div__btn {
+      margin-top: 3%;
+    }
+    &-btn {
+      text-align: center;
+      margin-left: 30%;
+      width: 55%;
+      border: unset;
+      height: 45px;
+      background-color: $color-primary;
+      line-height: 1em;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    &-text {
+      font-size: 1.2rem;
+
+      line-height: 1.8rem;
+      color: #000;
+      font-weight: 500;
+    }
+    &-btn__save {
+      cursor: pointer;
+      padding: 15px 8px;
+      margin-left: 30%;
+      &_icon__white {
+        font-size: $font-size-large;
+        //   color: $color-primary;
+        color: #fff;
+      }
+      &_icon__blue {
+        font-size: $font-size-large;
+        color: $color-primary;
+      }
+      &_span {
+        color: $color-primary;
+        font-weight: 500;
+
+        margin-left: 2%;
+      }
+    }
+    &-label {
+      line-height: 2em;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-left: 2em;
+    }
+    &-nopadding {
+      padding: 0;
+      margin: 0;
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 5px 20px;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    &-banner {
+      width: 99%;
+      height: 150px;
+      position: absolute;
+    }
+    &-opacity {
+      display: flex;
+      background: #e4e4e4;
+      width: 99%;
+      position: absolute;
+      opacity: 0.85;
+      height: 150px;
+      z-index: 2;
+    }
+    &-logo {
+      width: 80%;
+      position: absolute;
+      padding: 30px 10px;
+      z-index: 2;
+    }
+    &-col__middle {
+      position: absolute;
+      margin: 3.5% 25%;
+      max-width: 65%;
+      z-index: 2;
+    }
+    &-col__last {
+      position: absolute;
+      margin: 2.5% 75%;
+      z-index: 2;
+    }
+    &-div__btn {
+      margin-top: 3%;
+    }
+    &-btn {
+      text-align: center;
+      margin-left: 30%;
+      width: 55%;
+      border: unset;
+      height: 45px;
+      background-color: $color-primary;
+      line-height: 1em;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    &-text {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: #000;
+      font-weight: 500;
+    }
+    &-btn__save {
+      cursor: pointer;
+      padding: 15px 8px;
+      margin-left: 30%;
+      &_icon__white {
+        font-size: $font-size-large;
+        //   color: $color-primary;
+        color: #fff;
+      }
+      &_icon__blue {
+        font-size: $font-size-large;
+        color: $color-primary;
+      }
+      &_span {
+        color: $color-primary;
+        font-weight: 500;
+
+        margin-left: 2%;
+      }
+    }
+    &-label {
+      line-height: 2em;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-left: 2em;
+    }
+    &-nopadding {
+      padding: 0;
+      margin: 0;
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 5px 20px;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    &-banner {
+      width: 99%;
+      height: 150px;
+      position: absolute;
+    }
+    &-opacity {
+      display: flex;
+      background: #e4e4e4;
+      width: 99%;
+      position: absolute;
+      opacity: 0.85;
+      height: 150px;
+      z-index: 2;
+    }
+    &-logo {
+      width: 60%;
+      position: absolute;
+      padding: 30px 10px;
+      z-index: 2;
+    }
+    &-col__middle {
+      position: absolute;
+      margin: 3.5% 18%;
+      max-width: 65%;
+      z-index: 2;
+    }
+    &-col__last {
+      position: absolute;
+      margin: 2.5% 75%;
+      z-index: 2;
+    }
+    &-div__btn {
+      margin-top: 3%;
+    }
+    &-btn {
+      text-align: center;
+      margin-left: 30%;
+      width: 55%;
+      border: unset;
+      height: 45px;
+      background-color: $color-primary;
+      line-height: 1em;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    &-text {
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #000;
+      font-weight: 500;
+    }
+    &-label {
+      line-height: 2em;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-left: 2em;
+    }
+    &-btn__save {
+      cursor: pointer;
+      padding: 15px 8px;
+      margin-left: 30%;
+      &_icon__white {
+        font-size: $font-size-large;
+        //   color: $color-primary;
+        color: #fff;
+      }
+      &_icon__blue {
+        font-size: $font-size-large;
+        color: $color-primary;
+      }
+      &_span {
+        color: $color-primary;
+        font-weight: 500;
+
+        margin-left: 2%;
+      }
+    }
+    &-nopadding {
+      padding: 0;
+      margin: 0;
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 5px 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    &-banner {
+      width: 99%;
+      height: 150px;
+      position: absolute;
+    }
+    &-opacity {
+      display: flex;
+      background: #e4e4e4;
+      width: 99%;
+      position: absolute;
+      opacity: 0.85;
+      height: 150px;
+      z-index: 2;
+    }
+    &-label {
+      line-height: 2em;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $color-primary;
+      margin-left: 2em;
+    }
+    &-logo {
+      width: 60%;
+      position: absolute;
+      padding: 30px 10px;
+      z-index: 2;
+    }
+    &-col__middle {
+      position: absolute;
+      margin: 3.5% 18%;
+      max-width: 65%;
+      z-index: 2;
+    }
+    &-col__last {
+      position: absolute;
+      margin: 2.5% 75%;
+      z-index: 2;
+    }
+    &-div__btn {
+      margin-top: 3%;
+    }
+    &-btn {
+      text-align: center;
+      margin-left: 30%;
+      width: 55%;
+      border: unset;
+      height: 45px;
+      background-color: $color-primary;
+      line-height: 1em;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    &-text {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+      color: #000;
+      font-weight: 500;
+    }
+    &-btn__save {
+      cursor: pointer;
+      padding: 15px 8px;
+      margin-left: 30%;
+      &_icon__white {
+        font-size: $font-size-large;
+        //   color: $color-primary;
+        color: #fff;
+      }
+      &_icon__blue {
+        font-size: $font-size-large;
+        color: $color-primary;
+      }
+      &_span {
+        color: $color-primary;
+        font-weight: 500;
+
+        margin-left: 2%;
+      }
+    }
+    &-nopadding {
+      padding: 0;
+      margin: 0;
+    }
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 5px 20px;
+    }
+  }
+}
+
+.OfferDescriptionTabs {
+  &-navlink {
+    width: 10em;
+    height: 3em;
+    font-size: $font-size-small;
+    font-weight: 500;
+    text-align: center;
+    color: $color-primary !important;
+    vertical-align: middle;
+  }
+  &-navlink-active {
+    width: 10em;
+    height: 3em;
+    font-size: $font-size-small;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    color: gray !important;
+    border-bottom: 3px solid $color-secondary !important;
+  }
+  &-icon {
+    width: 1em;
+    height: 1em;
+    fill: rgb(122, 121, 121);
+    margin-right: 1em;
+  }
+  &-icon-entretien {
+    position: absolute;
+    right: 0;
+    width: 1.7em;
+    height: 1.7em;
+    fill: rgb(122, 121, 121);
+    margin-right: 1em;
+  }
+  &-icon-entretien-green {
+    position: absolute;
+    right: 0;
+    width: 1.7em;
+    height: 1.7em;
+    fill: rgb(74, 156, 106);
+    margin-right: 1em;
+  }
+  &-dropdown-item {
+    padding: 0.2rem 0.2rem;
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+    text-transform: uppercase;
+  }
+  &-label {
+    line-height: 2em;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $color-primary;
+    margin-left: 2em;
+  }
+  &-candidat__letters {
+    font-size: 2.3rem;
+    color: #fff;
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+  &-candidat__letters-div {
+    height: 4rem;
+    width: 4rem;
+    right: 4px !important;
+    position: absolute;
+    background-color: #b9b9b9;
+    text-align: center;
+  }
+  &-dropdown-toggle {
+    background-color: #fff;
+    border: unset;
+    color: $color-primary;
+    font-size: 0.8em;
+    &:hover {
+      background-color: $color-primary;
+      color: #fff;
+    }
+  }
+  &-dropdown-menu {
+    height: 8.7em;
+    margin-top: -0.5em;
+  }
+}
+.ListeOfferHeader {
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 3em;
+  box-shadow: 0px 0px 0px 2px #f3f3f3;
+  @media only screen and (max-width: 576px) {
+    &-legend {
+      font-size: 0.6rem !important;
+      font-weight: 800;
+      color: #6b6a6a;
+    }
+    &-label {
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      color: $color-primary;
+    }
+    &-row {
+      display: flex;
+      width: 100% !important;
+      margin-left: 0 !important;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    &-legend {
+      font-size: 0.8rem !important;
+      font-weight: 800;
+      color: #6b6a6a;
+    }
+    &-label {
+      font-size: 0.7rem !important;
+      font-weight: 600 !important;
+      color: $color-primary;
+    }
+    &-row {
+      display: flex;
+      width: 100% !important;
+      margin-left: 0 !important;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    &-legend {
+      font-size: 1rem !important;
+    }
+    &-label {
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      color: $color-primary;
+    }
+    &-row {
+      display: flex;
+      width: 100% !important;
+      margin-left: 0 !important;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    &-legend {
+      font-size: 1.1rem !important;
+      font-weight: 600 !important;
+      color: #6b6a6a;
+    }
+    &-label {
+      font-size: 1rem !important;
+      font-weight: 500 !important;
+      color: $color-primary;
+    }
+    &-row {
+      display: flex;
+      width: 80%;
+      margin-left: 10%;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  @media (min-width: 1200px) {
+    &-legend {
+      font-size: 1.8em;
+      font-weight: 800;
+      color: #6b6a6a;
+    }
+    &-label {
+      font-size: 1.1em;
+      font-weight: 600;
+      color: $color-primary;
+    }
+    &-row {
+      display: flex;
+      width: 100%;
+      margin-bottom: 2%;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+}

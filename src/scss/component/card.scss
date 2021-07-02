@@ -1,0 +1,116 @@
+.card {
+  width: 100%;
+  padding-bottom: 30px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif !important;
+  &.card--not-full-height {
+    height: auto;
+  }
+}
+
+.card-body {
+  height: 100%;
+  border-radius: 5px;
+
+  @include themify($themes) {
+    background-color: themed("colorBackground");
+  }
+}
+
+.card__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .subhead {
+    text-transform: none;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+    margin-top: 3px;
+  }
+
+  * {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+}
+
+.squared-corner-theme {
+  .card-body {
+    border-radius: 0;
+  }
+}
+
+.blocks-with-shadow-theme {
+  .card-body {
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.06);
+  }
+}
+.statistics-card {
+  padding: $small-margin;
+  height: 12rem;
+
+  &__body {
+    @extend %flex-center;
+  }
+
+  &__container {
+    flex: 1;
+    @extend %font-size-small;
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-left: 1rem;
+  }
+
+  &__label {
+    color: rgb(148, 148, 148);
+    font-size: 1rem;
+  }
+
+  &__icon-container {
+    @extend %flex-center;
+  }
+
+  &__icon {
+    @extend %medium-photo;
+  }
+  &__value {
+    font-size: $font-size-large;
+  }
+}
+@media (max-width: 1200px) {
+  .medium-photo, .statistics-card__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.EntrepriseDetail-sticky {
+
+    margin-bottom: 10px !important;
+}
+.profile__contact {
+  line-height: 24px;
+}
+}
+@media (max-width: 1024px) {
+  .icon-container {
+    height: 3rem;
+    width: 3rem;
+  }
+  .medium-photo, .statistics-card__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.panel__title h5 {
+  font-size: 1rem !important;
+}
+}

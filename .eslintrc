@@ -1,0 +1,60 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": ["react", "flowtype", "prettier"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "rules": {
+    "global-require": 0,
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "no-underscore-dangle": 0,
+    "class-methods-use-this": 0,
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "import/default": "off",
+    "no-unused-vars": "error",
+    "no-undefined": "error",
+    "no-undef": "error",
+    "quotes": ["error", "double"],
+    "react/jsx-no-bind": [
+      1,
+      {
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+        "allowArrowFunctions": true,
+        "allowFunctions": false,
+        "allowBind": false
+      }
+    ],
+    "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
+    "import/no-named-as-default": 0,
+    "import/no-unresolved": "off",
+    "react/jsx-no-duplicate-props": ["warn", { "ignoreCase": true }]
+  }
+}

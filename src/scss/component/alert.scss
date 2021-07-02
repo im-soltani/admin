@@ -1,0 +1,50 @@
+.alert {
+  position: fixed;
+  top: 0;
+  margin-top: 60px;
+  font-family: "Montserrat", sans-serif !important;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: $x-small-margin;
+  animation: alertAnimation 0.2s ease-in;
+  --webkit-animation: alertAnimation 0.2s ease-in;
+  border-radius: 0;
+
+  &__message {
+    flex: 1;
+  }
+
+  &--warning {
+    background-color: $color-warning !important;
+  }
+
+  &--error {
+    background-color: $color-danger !important;
+  }
+
+  &--info {
+    background-color: $color-info;
+  }
+
+  &--success {
+    background: $color-success;
+  }
+
+  &__icon {
+    font-size: 1.7rem;
+    margin-right: $small-margin;
+  }
+
+  &__button {
+    padding: $x-small-margin 0;
+    cursor: pointer;
+  }
+}

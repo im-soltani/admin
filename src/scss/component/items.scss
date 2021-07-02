@@ -1,0 +1,47 @@
+.Items {
+  padding: 2rem;
+  &-container {
+    margin-top: 2rem;
+  }
+  &-row {
+    &__header {
+      margin: 0;
+    }
+  }
+  &-col {
+    &__left {
+      background-color: white;
+      padding: 2rem;
+      margin-right: 2rem;
+    }
+    &__right {
+      background-color: white;
+      padding: 2rem;
+    }
+  }
+  &-btn__div {
+    text-align: center;
+    position: relative;
+  }
+  &-btn__success {
+    margin-top: 3rem;
+    width: 80%;
+    text-align: center;
+    height: 3em;
+    font-weight: 600;
+  }
+  &-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2rem !important;
+  }
+  &-subheader {
+    font-weight: 500;
+    margin-bottom: 2rem !important;
+  }
+  &-input {
+    border: unset;
+    border-bottom: 1px solid rgb(224, 224, 224);
+  }
+}

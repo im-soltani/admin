@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+main {
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+* {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+a {
+  color: $color-blue;
+  transition: all 0.3s;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-blue-hover;
+  }
+}
+
+img {
+  width: 100%;
+}

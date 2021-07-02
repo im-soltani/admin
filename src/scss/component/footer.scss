@@ -1,0 +1,235 @@
+.Footer {
+  font-family: "Montserrat", sans-serif !important;
+  padding-top: 1%;
+  z-index: -1;
+  padding-bottom: 2%;
+  position: absolute;
+  border-top: 5px solid #f2f4f7 !important;
+  @media (max-width: 768.98px) {
+    min-height: 10rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+
+    display: grid;
+    background-color: #fff;
+    &-row {
+      margin: 0;
+      width: 100%;
+    }
+    &-logo {
+      width: 25%;
+    }
+    &-finc {
+      width: 24%;
+      margin-right: 2%;
+      border: 1px solid #e7e2e2;
+    }
+    &-hr {
+      width: 38%;
+      margin-left: -1%;
+      background-color: #f7c93e;
+      height: 5px;
+    }
+    &-col {
+      &__left {
+        position: relative;
+        margin: auto;
+        margin-top: 1rem;
+      }
+      &__middle {
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+      &__right {
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 1rem;
+      }
+      &__link {
+        color: #606060;
+        text-transform: uppercase;
+        line-height: 35px;
+        font-size: 1.2rem;
+        &:hover {
+          color: $color-secondary !important;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+    }
+    &-text {
+      color: $color-secondary;
+      font-size: 1.1rem;
+      font-family: "Montserrat", sans-serif;
+    }
+    &-href {
+      color: #606060;
+      padding-right: 20px;
+      &:hover {
+        color: #606060 !important;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+    &-icon {
+      width: 30px;
+      height: 30px;
+    }
+    &-row2 {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    &-href__bottom {
+      margin-top: 30px;
+      color: #606060;
+      font-size: 0.9rem;
+      &:hover {
+        color: $color-secondary !important;
+      }
+    }
+    &-href__bottom2 {
+      margin-top: 30px;
+      color: white;
+      font-size: 0.9rem;
+      &:hover {
+        color: #606060 !important;
+      }
+    }
+    &-sep {
+      background-color: $color-secondary;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    &-heart {
+      width: 24px;
+      height: 24px;
+      fill: $color-secondary;
+    }
+  }
+
+  @media (min-width: 769px) {
+    min-height: 10rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+
+    display: grid;
+    background-color: #fff;
+    &-row {
+      margin: 0;
+      width: 100%;
+    }
+    &-logo {
+      width: 63%;
+    }
+    &-finc {
+      width: 24%;
+
+      margin-right: 2%;
+      border: 1px solid #e7e2e2;
+    }
+    &-hr {
+      width: 38%;
+      float: left;
+      background-color: #f7c93e;
+      height: 5px;
+    }
+    &-col {
+      &__left {
+        position: relative;
+        margin: auto;
+      }
+      &__middle {
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+      &__right {
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+      &__link {
+        color: #606060;
+        text-transform: uppercase;
+        line-height: 35px;
+        font-size: 1rem;
+        &:hover {
+          color: $color-secondary !important;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+    }
+    &-text {
+      color: $color-secondary;
+      font-size: 1.1rem;
+      font-family: "Montserrat", sans-serif;
+    }
+    &-href {
+      color: #606060;
+      padding-right: 20px;
+      &:hover {
+        color: #606060 !important;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+    &-icon {
+      width: 30px;
+      height: 30px;
+    }
+    &-row2 {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-href__bottom {
+      margin-top: 30px;
+      color: #606060;
+      font-size: 0.9rem;
+      &:hover {
+        color: $color-secondary !important;
+      }
+    }
+    &-href__bottom2 {
+      margin-top: 30px;
+      color: #606060;
+      font-size: 0.9rem;
+      &:hover {
+        color: #606060 !important;
+      }
+    }
+    &-sep {
+      background-color: $color-secondary;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    &-heart {
+      width: 24px;
+      height: 24px;
+      fill: $color-secondary;
+    }
+  }
+}

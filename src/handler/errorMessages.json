@@ -1,0 +1,12 @@
+{
+  "invalidEmail": "L'adresse email est invalide",
+  "auth": {
+    "invalidPassword": "Mot de passe invalid"
+  },
+  "user": {
+    "firstName": "Le prénom est invalid",
+    "lastName": "Le nom est invlid",
+    "mobile": "Le numéro de téléphone est invalid",
+    "country": "Veuillez sélectionner le pays"
+  }
+}

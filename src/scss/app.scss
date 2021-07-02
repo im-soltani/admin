@@ -1,0 +1,49 @@
+@import "settings/variable"; //themes' colors
+
+//vendor...
+@import "./vendor";
+
+//base...
+@import "generic/normalize.scss";
+@import "generic/box-sizing.scss";
+@import "./base/scaffolding"; // styles of base elements
+@import "./base/typography"; // base styles of h1-h6, p, span
+
+//components...
+@import "./component/alert";
+@import "./component/items";
+@import "./component/footer";
+@import "./component/custom";
+@import "./component/btn"; // Button from 'reactstrap'
+@import "./component/card"; // Card, CardBody from 'reactstrap'
+@import "./component/form"; // <form> and all types of inputs
+@import "./component/grid"; // useless. using for grid presentation
+@import "./component/panel"; // components/Panel.js
+@import "./component/popover"; // Popover from 'reactstrap'
+@import "./component/scroll";
+@import "./component/sidebar"; // components/sidebar/*
+@import "./component/tabs"; // Nav, NavItem, NavLink, TabContent, TabPane from 'reactstrap'
+@import "./component/text-editor"; // components/text-editor/TextEditor.js ('react-draft-wysiwyg')
+@import "./component/tooltip"; // Tooltip from 'reactstrap'
+@import "./component/topbar"; // components/topbar/*
+@import "./component/load";
+
+@import "./component/candidat";
+@import "./component/email";
+@import "./component/my-cv";
+@import "./component/modal-associate";
+@import "./component/modal-cv";
+@import "./component/offer-description";
+@import "./component/offer-detail";
+@import "./component/offer-item";
+@import "./component/profil";
+@import "./component/share-modal";
+
+//pages...
+@import "containers/account"; // pages/account/* (except profile)
+@import "containers/dashboard"; // pages/dashboards/*
+@import "containers/profile"; // pages/account/profile/*
+@import "containers/landing";
+
+//objects...
+@import "objects/layout.scss"; // layout settings

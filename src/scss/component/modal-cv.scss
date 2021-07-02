@@ -1,0 +1,334 @@
+.ModalCV {
+  font-family: "Montserrat", sans-serif !important;
+  @media (max-width: 575.98px) {
+    max-width: 95%;
+
+    .close {
+      font-size: 2.2em;
+      color: #fff;
+    }
+    &-group__label {
+      padding-left: 1em;
+      color: $color-primary;
+      font-size: 1em;
+      font-weight: 600;
+      width: auto;
+    }
+    &-group__input {
+      height: 2em;
+      font-size: 1.2em;
+      border-radius: 2em !important;
+      padding-left: 2em;
+      border-radius: 24px;
+    }
+    &-group__form {
+      width: auto;
+      margin: auto;
+      margin-bottom: 1.6em;
+    }
+    .dashed {
+      border-bottom: 3px dashed #dee2e6;
+    }
+    &-rating__label {
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+    &-add__btn {
+      border-radius: 2em;
+      background-color: $color-primary !important;
+      font-size: 1.3em;
+      width: 100%;
+      font-weight: 800;
+      color: #fff !important;
+      margin-bottom: 1em;
+      border-color: $color-primary !important;
+      &:hover {
+        background-color: darken($color-primary, 10%) !important;
+      }
+    }
+    &-cancel__btn {
+      height: 3em;
+      border-radius: 2em;
+      font-size: 1.3em;
+      font-weight: 800;
+      color: #fff !important;
+      background-color: $color-secondary !important;
+      border-color: $color-secondary !important;
+      &:hover {
+        background-color: darken($color-secondary, 10%) !important;
+      }
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    max-width: 90%;
+    .modal-title {
+      font-size: 1.3em;
+      font-weight: 500;
+
+      color: #fff;
+      position: absolute;
+      text-align: center;
+    }
+    .close {
+      font-size: 2.2em;
+      color: #fff;
+    }
+    .dashed {
+      border-bottom: 3px dashed #dee2e6;
+    }
+    &-group__label {
+      padding-left: 1em;
+      color: $color-primary;
+      font-size: 1em;
+      font-weight: 600;
+      width: auto;
+    }
+    &-group__input {
+      height: 2em;
+      font-size: 1.2em;
+      border-radius: 2em !important;
+      padding-left: 2em;
+      border-radius: 24px;
+    }
+    &-group__form {
+      width: auto;
+      margin: auto;
+      margin-bottom: 1.6em;
+    }
+    &-rating__label {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    &-add__btn {
+      border-radius: 2em;
+      background-color: $color-primary !important;
+      font-size: 1.3em;
+      width: 100%;
+      font-weight: 800;
+      color: #fff !important;
+      margin-bottom: 1em;
+      border-color: $color-primary !important;
+      &:hover {
+        background-color: darken($color-primary, 10%) !important;
+      }
+    }
+    &-cancel__btn {
+      height: 3em;
+      border-radius: 2em;
+      font-size: 1.3em;
+      font-weight: 800;
+      color: #fff !important;
+      background-color: $color-secondary !important;
+      border-color: $color-secondary !important;
+      &:hover {
+        background-color: darken($color-secondary, 10%) !important;
+      }
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    max-width: 90%;
+    .modal-title {
+      font-size: 1.3em;
+      font-weight: 500;
+
+      color: #fff;
+      position: absolute;
+      text-align: center;
+    }
+    .close {
+      font-size: 2.2em;
+      color: #fff;
+    }
+    .dashed {
+      border-right: 3px dashed #dee2e6;
+    }
+    &-group__label {
+      padding-left: 1em;
+      color: $color-primary;
+      font-size: 1em;
+      font-weight: 600;
+      width: auto;
+    }
+    &-group__input {
+      height: 2em;
+      font-size: 1.3em;
+      border-radius: 2em !important;
+      padding-left: 2em;
+      border-radius: 24px;
+    }
+    &-group__form {
+      width: auto;
+      margin: auto;
+      margin-bottom: 1.6em;
+    }
+    &-rating__label {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    &-add__btn {
+      border-radius: 2em;
+      background-color: $color-primary !important;
+      font-size: 1.3em;
+      width: 100%;
+      font-weight: 800;
+      color: #fff !important;
+      margin-bottom: 1em;
+      border-color: $color-primary !important;
+      &:hover {
+        background-color: darken($color-primary, 10%) !important;
+      }
+    }
+    &-cancel__btn {
+      height: 3em;
+      border-radius: 2em;
+      font-size: 1.3em;
+      font-weight: 800;
+      color: #fff !important;
+      background-color: $color-secondary !important;
+      border-color: $color-secondary !important;
+      &:hover {
+        background-color: darken($color-secondary, 10%) !important;
+      }
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    max-width: 90%;
+    .modal-title {
+      font-size: 1.3em;
+      font-weight: 500;
+
+      color: #fff;
+      position: absolute;
+      text-align: center;
+    }
+    .close {
+      font-size: 2.2em;
+      color: #fff;
+    }
+    .dashed {
+      border-right: 3px dashed #dee2e6;
+    }
+    &-group__label {
+      padding-left: 1em;
+      color: $color-primary;
+      font-size: 1.1em;
+      font-weight: 600;
+      width: auto;
+    }
+    &-group__input {
+      height: 2em;
+      font-size: 1em;
+      border-radius: 2em !important;
+      padding-left: 2em;
+      border-radius: 24px;
+    }
+    &-group__form {
+      position: relative;
+      margin: auto;
+
+      width: 70%;
+
+      margin-bottom: 1.6em;
+    }
+    &-rating__label {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    &-add__btn {
+      border-radius: 2em;
+      background-color: $color-primary !important;
+      font-size: 1.3em;
+      width: 100%;
+      font-weight: 800;
+      color: #fff !important;
+      margin-bottom: 1em;
+      border-color: $color-primary !important;
+      &:hover {
+        background-color: darken($color-primary, 10%) !important;
+      }
+    }
+    &-cancel__btn {
+      height: 3em;
+      border-radius: 2em;
+      font-size: 1.3em;
+      font-weight: 800;
+      color: #fff !important;
+      background-color: $color-secondary !important;
+      border-color: $color-secondary !important;
+      &:hover {
+        background-color: darken($color-secondary, 10%) !important;
+      }
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    max-width: 70%;
+    .modal-title {
+      font-size: 1.3em;
+      font-weight: 500;
+
+      color: #fff;
+      position: absolute;
+      text-align: center;
+    }
+
+    .dashed {
+      border-right: 3px dashed #dee2e6;
+    }
+    &-group__label {
+      padding-left: 1em;
+      color: $color-primary;
+      font-size: 1.2em;
+      font-weight: 600;
+      width: auto;
+    }
+    &-group__input {
+      height: 2.5em;
+      font-size: 1em;
+      border-radius: 2em !important;
+      padding-left: 2em;
+      border-radius: 24px;
+    }
+    &-group__form {
+      width: auto;
+      margin: auto;
+      margin-bottom: 1.6em;
+    }
+    &-rating__label {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    &-add__btn {
+      border-radius: 2em;
+      background-color: $color-primary !important;
+      font-size: 1.3em;
+      width: 100%;
+      font-weight: 800;
+      color: #fff !important;
+      margin-bottom: 1em;
+      border-color: $color-primary !important;
+      &:hover {
+        background-color: darken($color-primary, 10%) !important;
+      }
+    }
+    &-cancel__btn {
+      height: 3em;
+      border-radius: 2em;
+      font-size: 1.3em;
+      font-weight: 800;
+      color: #fff !important;
+      background-color: $color-secondary !important;
+      border-color: $color-secondary !important;
+      &:hover {
+        background-color: darken($color-secondary, 10%) !important;
+      }
+    }
+  }
+}

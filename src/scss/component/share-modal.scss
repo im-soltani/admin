@@ -1,0 +1,74 @@
+.ModalSahreCV {
+  font-family: "Montserrat", sans-serif !important;
+  @media (max-width: 575.98px) {
+    width: 90%;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    width: 75%;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    width: 65%;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    width: 50%;
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    width: 50%;
+  }
+  margin-top: 12%;
+  &-group__label {
+    padding-left: 2em;
+    color: $color-primary;
+    font-size: 1.4em;
+    font-weight: 600;
+    width: auto;
+  }
+  &-group__input {
+    height: 3.8em;
+    font-size: 1.3em;
+    border-radius: 2em;
+    border-radius: 24px;
+    padding-left: 2em;
+  }
+  &-group__form {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.6em;
+  }
+  &-rating__label {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  &-add__btn {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.2em;
+    background-color: $color-primary !important;
+    font-size: $font-size-small;
+    font-weight: 500 !important;
+    color: #fff !important;
+    margin-bottom: 1em;
+    &:hover {
+      background-color: #0043bb !important;
+    }
+  }
+  &-cancel__btn {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.2em;
+    font-size: $font-size-small;
+    margin-bottom: 2em;
+    font-weight: 500 !important;
+    color: #fff !important;
+    background-color: $color-secondary !important;
+    border-color: $color-secondary !important;
+  }
+}

@@ -1,0 +1,592 @@
+.OfferItem {
+  max-width: 100%;
+  padding: 30px;
+  margin-bottom: 1em;
+  box-shadow: 1px 3px 3px 2px #f3f3f3;
+  font-family: "Montserrat", sans-serif !important;
+
+  @media (max-width: 575px) {
+    &-name {
+      font-size: 1.1rem;
+    }
+    &__hold-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: rgb(255, 136, 0);
+    }
+    &__archive-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: $color-secondary;
+    }
+    &__edit-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: $color-primary;
+    }
+    &__dup-offer {
+      width: 1.8em;
+      height: 1.7em;
+      margin-right: 1em;
+      fill: rgb(26, 1, 65);
+    }
+    &__remove-offer {
+      width: 1.2em;
+      height: 1.2em;
+
+      fill: gray;
+    }
+
+    &__see-offer {
+      width: 1.2em;
+      height: 1.2em;
+      fill: gray;
+    }
+    &-label {
+      color: #a2a2a2;
+      font-size: 1.1em;
+    }
+    &-label_2 {
+      color: #a2a2a2;
+      font-size: 1.1em;
+    }
+    .Row-up {
+      margin-top: -20px;
+    }
+    .Row-up-see {
+      margin-top: -10px;
+    }
+    &-badge {
+      background-color: $color-secondary;
+      position: absolute;
+      right: 50;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 0.7em;
+      margin-left: 0.5em;
+    }
+    &-badge2 {
+      background-color: $color-primary;
+      position: absolute;
+      top: 22px;
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+      align-content: center;
+      vertical-align: middle;
+      display: grid;
+      right: 50;
+
+      border-radius: 50%;
+
+      margin-left: 0.5em;
+    }
+    &-sticky {
+      background-color: #f1f1f1;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 0.6em;
+      height: 2em;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px 15px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #2552ac;
+      border-radius: 2em;
+      line-height: 1.9em;
+      margin-right: 1em;
+    }
+    &-btn__draft {
+      background-color: #08c308 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      font-weight: 500;
+      padding: 0 !important;
+    }
+    &-btn__rien {
+      background: transparent;
+      color: white !important;
+      background-color: white !important;
+      border: unset;
+    }
+    &-btn__actif {
+      background-color: #082ac3 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      padding: 0 !important;
+      font-weight: 500;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    &-name {
+      font-size: 1.1rem;
+    }
+    &__hold-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: rgb(255, 136, 0);
+    }
+    &__archive-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: $color-secondary;
+    }
+    &__edit-offer {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 1em;
+      fill: $color-primary;
+    }
+    &__dup-offer {
+      width: 1.8em;
+      height: 1.7em;
+      margin-right: 1em;
+      fill: rgb(26, 1, 65);
+    }
+    &__remove-offer {
+      width: 1.2em;
+      height: 1.2em;
+
+      fill: gray;
+    }
+
+    &__see-offer {
+      width: 1.2em;
+      height: 1.2em;
+      fill: gray;
+    }
+    &-btn__rien {
+      background: transparent;
+      color: white !important;
+      background-color: white !important;
+      border: unset;
+    }
+    &-label {
+      color: #a2a2a2;
+      font-size: 1.1em;
+    }
+    &-label_2 {
+      float: right;
+      margin-top: -50px;
+      padding-bottom: 20px;
+      color: #a2a2a2;
+      font-size: 1.1em;
+    }
+    .Row-up {
+      margin-top: -20px;
+    }
+    .Row-up-see {
+      margin-top: -10px;
+    }
+    &-badge {
+      background-color: $color-secondary;
+      position: absolute;
+      right: 50;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 0.7em;
+      margin-left: 0.5em;
+    }
+    &-sticky {
+      background-color: #f1f1f1;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 0.6em;
+      height: 2em;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px 15px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #2552ac;
+      border-radius: 2em;
+      line-height: 1.9em;
+      margin-right: 1em;
+    }
+    &-btn__draft {
+      background-color: #08c308 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      font-weight: 500;
+      padding: 0 !important;
+    }
+    &-btn__actif {
+      background-color: #082ac3 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      padding: 0 !important;
+      font-weight: 500;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    &-name {
+      font-size: 1.1rem;
+    }
+    &__hold-offer {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 5px;
+      fill: rgb(255, 136, 0);
+    }
+    &__archive-offer {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 5px;
+      fill: $color-secondary;
+    }
+    &-btn__rien {
+      background: transparent;
+      color: white !important;
+      background-color: white !important;
+      border: unset;
+    }
+    &__edit-offer {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 5px;
+      fill: $color-primary;
+    }
+    &__dup-offer {
+      width: 1.5em;
+      height: 2em;
+      margin-right: 5px;
+      fill: rgb(26, 1, 65);
+    }
+    &__remove-offer {
+      width: 1.2rem;
+      height: 1.2rem;
+      fill: gray;
+    }
+
+    &__see-offer {
+      width: 1.2rem;
+      height: 1.2rem;
+      fill: gray;
+    }
+    &-label {
+      color: #a2a2a2;
+      font-size: 1rem;
+    }
+    &-label_2 {
+      color: #a2a2a2;
+      font-size: 1rem;
+    }
+    &-badge {
+      background-color: $color-secondary;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 0.7em;
+      margin-left: 0.5em;
+    }
+    &-sticky {
+      background-color: #f1f1f1;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 0.6em;
+      height: 2em;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px 15px;
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #2552ac;
+      border-radius: 2em;
+      line-height: 1.9em;
+      margin-right: 1em;
+    }
+    &-btn__draft {
+      background-color: #08c308 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      font-weight: 500;
+      padding: 0 !important;
+    }
+    &-btn__actif {
+      background-color: #082ac3 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      padding: 0 !important;
+      font-weight: 500;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    &-name {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+    }
+    &__hold-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 10px;
+      fill: rgb(255, 136, 0);
+    }
+    &__archive-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 10px;
+      fill: $color-secondary;
+    }
+    &__edit-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 10px;
+      fill: $color-primary;
+    }
+    &__dup-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 10px;
+      fill: rgb(26, 1, 65);
+    }
+    &-btn__rien {
+      background: transparent;
+      color: white !important;
+      background-color: white !important;
+      border: unset;
+    }
+    &__remove-offer {
+      width: 1.4em;
+      height: 1.4em;
+
+      fill: gray;
+    }
+
+    &__see-offer {
+      width: 1.4em;
+      height: 1.4em;
+      fill: gray;
+    }
+    &-label {
+      color: #a2a2a2;
+      font-size: 1.2em;
+    }
+    &-label_2 {
+      color: #a2a2a2;
+      font-size: 1.2em;
+    }
+    &-badge {
+      background-color: $color-secondary;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 0.7em;
+      margin-left: 0.5em;
+    }
+    &-sticky {
+      background-color: #f1f1f1;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 0.6em;
+      height: 2em;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px 15px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #2552ac;
+      border-radius: 2em;
+      line-height: 1.9em;
+      margin-right: 1em;
+    }
+    &-btn__draft {
+      background-color: #08c308 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      font-weight: 500;
+      padding: 0 !important;
+    }
+    &-btn__actif {
+      background-color: #082ac3 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      padding: 0 !important;
+      font-weight: 500;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    &-name {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      display: flex;
+    }
+    &__hold-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 1em;
+      fill: rgb(255, 136, 0);
+    }
+    &__archive-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 1em;
+      fill: $color-secondary;
+    }
+    &__edit-offer {
+      width: 1.4em;
+      height: 1.4em;
+      margin-right: 1em;
+      fill: $color-primary;
+    }
+    &-btn__rien {
+      background: transparent;
+      color: white !important;
+      background-color: white !important;
+      border: unset;
+    }
+    &__dup-offer {
+      width: 2em;
+      height: 1.8em;
+      margin-right: 1em;
+      fill: rgb(26, 1, 65);
+    }
+    &__remove-offer {
+      width: 1.4em;
+      height: 1.4em;
+
+      fill: gray;
+    }
+
+    &__see-offer {
+      width: 1.6em;
+      height: 1.6em;
+      fill: gray;
+    }
+    &-label {
+      color: #a2a2a2;
+      font-size: 1.2em;
+    }
+    &-label_2 {
+      color: #a2a2a2;
+      font-size: 1.3em;
+    }
+    &-badge {
+      background-color: $color-secondary;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 0.7em;
+      margin-left: 0.5em;
+    }
+    &-badge2 {
+      background-color: $color-primary;
+      top: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      text-align: center;
+      margin-top: -1rem;
+      align-content: center;
+      vertical-align: middle;
+      display: grid;
+      right: 50px;
+      border-radius: 50%;
+      color: white;
+      margin-left: 0.5em;
+    }
+    &-sticky {
+      background-color: #f1f1f1;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 0.6em;
+      height: 2em;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0px 15px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #2552ac;
+      border-radius: 2em;
+      line-height: 1.9em;
+      margin-right: 1em;
+    }
+    &-btn__draft {
+      background-color: #08c308 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      font-weight: 500;
+      padding: 0 !important;
+    }
+    &-btn__actif {
+      background-color: #082ac3 !important;
+      color: #fff !important;
+      border-radius: 10%;
+      width: 6em;
+      border-color: #fff;
+      height: 2.5em;
+      font-size: 0.9rem !important;
+      padding: 0 !important;
+      font-weight: 500;
+    }
+  }
+}

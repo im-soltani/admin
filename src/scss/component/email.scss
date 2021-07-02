@@ -1,0 +1,98 @@
+.Email {
+  background-color: #fff;
+  margin: 0 0.5rem;
+  &-title {
+    padding: 2rem 3rem;
+    font-size: $font-size-medium;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  &-container {
+    background-color: white;
+
+    padding: 1.25rem;
+  }
+  &-card__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+  }
+  &-list__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  &-tr__header {
+    font-size: 1rem;
+    color: $color-primary;
+    border: unset;
+    background-color: #eeeeee;
+    padding: 20px !important;
+    text-align: left;
+  }
+  &-tr {
+    font-size: 1rem;
+    background-color: white;
+    border: unset;
+    color: gray;
+    padding: 20px;
+    text-align: left;
+  }
+  &-card__button {
+    font-size: 1.1rem;
+    background-color: white !important;
+    border: unset;
+    color: gray !important;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    &:hover {
+      background-color: #eeeeee !important;
+    }
+  }
+  &-card__button_active {
+    font-size: 1.1rem;
+    box-shadow: 0 0 0 0.2rem #eeeeee;
+    background-color: white !important;
+    border: unset;
+    color: gray !important;
+    width: 100%;
+    font-weight: 800 !important;
+    padding: 20px;
+    text-align: left;
+    &:hover {
+      background-color: #dfdfdf !important;
+
+      color: $color-primary !important;
+    }
+  }
+  &-template__row {
+    padding: 1rem;
+    border: 2px solid rgb(240, 240, 240);
+
+    overflow-y: auto;
+  }
+  &-template__row-header {
+    margin: 0 0rem;
+    margin-bottom: 1rem;
+    color: $color-primary;
+    font-weight: 800;
+    font-size: $font-size-small;
+  }
+  &-button__action {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+
+    font-weight: 600 !important;
+    color: rgb(66, 66, 66) !important;
+    border: unset;
+    background-color: $color-secondary !important;
+    &:hover {
+      background-color: $color-primary !important;
+      color: white !important;
+    }
+  }
+  &-card__p {
+    font-size: 0.9rem;
+  }
+}
